@@ -265,8 +265,29 @@ html {
   border-radius: 1.5rem;
   margin: 3rem 0;
 }
-
 /* End of Section 2 */
+
+/* Section 3 */
+.row{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width:65%
+}
+.card{
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1.5rem;
+  width:175px;
+  height:225px;
+}
+/* End of Section 3 */
+
+/* Section 4 */
+
+/* End of Section 4 */
+
 /* Media Queries */
 @media only screen and (max-width: 1440px) {
   .navbar {
