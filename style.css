@@ -47,7 +47,7 @@ html {
   transition: color 0.4s;
 }
 .nav-link:hover {
-  color: red;
+  color: #1abc9c;
 }
 
 /* End of Navbar */
@@ -245,7 +245,7 @@ html {
   font-family: "Oswald", sans-serif;
   font-size: 10rem;
   font-weight: 300;
-  color: sienna;
+  color: #1abc9c;
 }
 .section-header-line {
   width: 45rem;
@@ -268,20 +268,53 @@ html {
 /* End of Section 2 */
 
 /* Section 3 */
-.row{
+/* Section 2 */
+.section-3 {
+  width: 100%;
+}
+.address {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 300px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  width:65%
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.card{
-  background-color: red;
-  border-style: solid;
-  border-color: black;
-  border-radius: 1.5rem;
-  width:175px;
-  height:225px;
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
+.social-media h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+  margin: 0;
+  margin-bottom: 3.5rem;
+}
+.social-media .media-icons {
+  text-align: center;
+}
+.social-media a {
+  color: white;
+  padding-left: 15px;
+  align-self: center;
+}
+.social-media a img {
+  width: 57px;
+  margin-bottom: 20px;
+}
+.social-media a > i.fas,
+.social-media a > i.fab {
+  font-size: 100px;
+}
+.social-media a > i.fas:hover,
+.social-media a > i.fab:hover {
+  color: #1abc9c;
+}
+/* End of Section 2 */
 /* End of Section 3 */
 
 /* Section 4 */
