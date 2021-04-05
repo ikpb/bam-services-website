@@ -111,6 +111,9 @@ html {
   perspective: 50rem;
   overflow: hidden;
 }
+.banner-heading a {
+  cursor: pointer;
+}
 .banner-heading span {
   font-family: "Oswald", sans-serif;
   font-size: 12rem;
@@ -197,6 +200,7 @@ html {
   animation: fadeAnimation 1s 2s forwards;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 .banner-btn::before {
   content: "";
